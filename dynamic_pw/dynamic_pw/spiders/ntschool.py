@@ -1,5 +1,6 @@
 import scrapy; import json
 #scrapy crawl ntschool -o schools.csv
+#https://www.youtube.com/watch?v=Pu3gmdWsLYc
 
 class NtschoolSpider(scrapy.Spider):
     name = "ntschool"
